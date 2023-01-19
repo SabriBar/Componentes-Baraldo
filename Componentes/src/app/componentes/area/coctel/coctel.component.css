@@ -1,0 +1,30 @@
+.list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 5%;
+}
+
+li{
+    font-family: 'Montserrat', sans-serif;
+    height: 5rem;
+    width: 20rem;
+    margin: 8%;
+    border-radius: 3.8%;
+    background-color: #2D4628;
+    color: white;
+    box-shadow: 7px 7px 26px 0px rgba(18,16,16,0.72);
+-webkit-box-shadow: 7px 7px 26px 0px rgba(18,16,16,0.72);
+-moz-box-shadow: 7px 7px 26px 0px rgba(18,16,16,0.72);
+}
+
+span{
+    margin: 9%;
+    font-weight: bolder;
+    font-size: .9rem;
+    letter-spacing: .06rem;
+    width: 4rem;
+    height: 1.5rem;
+    text-align: center;
+    background-color: #e8320063;
+}
