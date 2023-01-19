@@ -1,0 +1,20 @@
+.ubi-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.map iframe{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.48);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.48);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.48);
+}
+
+.pic img{
+    margin-left: -5%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.48);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.48);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.48);
+    width: 23.5rem;
+    height: 25.1rem;
+}

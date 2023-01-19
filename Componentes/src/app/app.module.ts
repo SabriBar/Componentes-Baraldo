@@ -10,6 +10,8 @@ import { AperitivoComponent } from './componentes/area/aperitivo/aperitivo.compo
 import { CoctelComponent } from './componentes/area/coctel/coctel.component';
 import { ComidaComponent } from './componentes/area/comida/comida.component';
 import { SinAlcoholComponent } from './componentes/area/sin-alcohol/sin-alcohol.component';
+import { UbicacionComponent } from './componentes/toolbar/ubicacion/ubicacion.component';
+import { HorarioComponent } from './componentes/toolbar/horario/horario.component';
 
 
 const appRoutes: Routes = [
@@ -17,7 +19,9 @@ const appRoutes: Routes = [
   {path: 'aperitivo', component: AperitivoComponent},
   {path: 'coctel', component: CoctelComponent},
   {path: 'comida', component: ComidaComponent},
-  {path: 'sin-alcohol', component: SinAlcoholComponent}
+  {path: 'sin-alcohol', component: SinAlcoholComponent},
+  {path: 'ubicacion', component: UbicacionComponent},
+  {path: '', component: HorarioComponent},
 ];
 
 @NgModule({
@@ -30,7 +34,9 @@ const appRoutes: Routes = [
     AperitivoComponent,
     CoctelComponent,
     ComidaComponent,
-    SinAlcoholComponent
+    SinAlcoholComponent,
+    UbicacionComponent,
+    HorarioComponent
   ],
   imports: [
     BrowserModule,
