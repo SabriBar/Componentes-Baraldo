@@ -1,0 +1,24 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: .9fr 6fr;
+    grid-template-rows: 30% 70%;
+    height: 100vh;
+}
+
+
+.grid-toolbar{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.grid-menu{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-area{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}

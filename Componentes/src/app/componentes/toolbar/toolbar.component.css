@@ -1,0 +1,48 @@
+* {
+    background-color: #2D4628;
+    margin: 0%;
+    padding: 0%;
+    border: none;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: auto!important;
+   
+}
+
+
+
+.logo img {
+    margin: 2.9%;
+    margin-left: 9%;
+    width: 49%;
+}
+
+.tool {
+    margin: 1.6%;
+    display: flex;
+    flex-direction: row;
+    gap: 60%;
+    font-family: 'Shippori Antique B1', sans-serif;
+    margin-left: 3%;
+}
+
+.tool a {
+    color: #EEC66A;
+    font-size: .73rem;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: .08rem;
+    text-transform: uppercase;
+}
+
+@media (min-width: 992px){
+    .container {
+        max-width: 100vw;
+    }}
+    
